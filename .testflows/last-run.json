@@ -1,0 +1,132 @@
+{
+  "failed" : 0,
+  "failed_names" : [
+
+  ],
+  "generated_at" : "2026-08-22T11:24:45Z",
+  "passed" : 10,
+  "results" : [
+    {
+      "display_name" : "authorization",
+      "duration_seconds" : 0.0021170377731323242,
+      "name" : "authorization",
+      "status" : "passed",
+      "tags" : [
+        "authentication",
+        "authority",
+        "authorization",
+        "scope"
+      ]
+    },
+    {
+      "display_name" : "session-lifetime",
+      "duration_seconds" : 0.00030803680419921875,
+      "name" : "session-lifetime",
+      "status" : "passed",
+      "tags" : [
+        "authentication",
+        "authorization",
+        "lifetime",
+        "session"
+      ]
+    },
+    {
+      "display_name" : "authorization-capability",
+      "duration_seconds" : 0.0030460357666015625,
+      "name" : "authorization-capability",
+      "status" : "passed",
+      "tags" : [
+        "authentication",
+        "authorization",
+        "capability",
+        "cryptography"
+      ]
+    },
+    {
+      "display_name" : "identity-identifiers",
+      "duration_seconds" : 0.002668023109436035,
+      "name" : "identity-identifiers",
+      "status" : "passed",
+      "tags" : [
+        "authentication",
+        "identity",
+        "uuid"
+      ]
+    },
+    {
+      "display_name" : "string-identifiers",
+      "duration_seconds" : 0.00035393238067626953,
+      "name" : "string-identifiers",
+      "status" : "passed",
+      "tags" : [
+        "authentication",
+        "codable",
+        "identifier",
+        "validation"
+      ]
+    },
+    {
+      "display_name" : "authentication-context",
+      "duration_seconds" : 0.0004659891128540039,
+      "name" : "authentication-context",
+      "status" : "passed",
+      "tags" : [
+        "authentication",
+        "context",
+        "parsing"
+      ]
+    },
+    {
+      "display_name" : "password",
+      "duration_seconds" : 0.7882310152053833,
+      "name" : "password",
+      "status" : "passed",
+      "tags" : [
+        "authentication",
+        "cryptography",
+        "password"
+      ]
+    },
+    {
+      "display_name" : "access-token",
+      "duration_seconds" : 0.010753989219665527,
+      "name" : "access-token",
+      "status" : "passed",
+      "tags" : [
+        "authentication",
+        "es256",
+        "jwt",
+        "token"
+      ]
+    },
+    {
+      "display_name" : "access-token-constraints",
+      "duration_seconds" : 0.0007410049438476562,
+      "name" : "access-token-constraints",
+      "status" : "passed",
+      "tags" : [
+        "authentication",
+        "constraints",
+        "evaluation",
+        "token"
+      ]
+    },
+    {
+      "display_name" : "server-access-token-protection",
+      "duration_seconds" : 0.045146942138671875,
+      "name" : "server-access-token-protection",
+      "status" : "passed",
+      "tags" : [
+        "authentication",
+        "constraints",
+        "jwt",
+        "middleware",
+        "scope",
+        "server"
+      ]
+    }
+  ],
+  "skipped" : 0,
+  "title" : "Auth",
+  "total" : 10
+}
