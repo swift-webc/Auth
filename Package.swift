@@ -44,12 +44,6 @@ let package = Package(
                 "AuthenticationServer",
             ]
         ),
-        .executable(
-            name: "authtest",
-            targets: [
-                "AuthenticationTestFlows",
-            ]
-        ),
     ],
     dependencies: [
         .package(
@@ -70,10 +64,6 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/leviouwendijk/Primitives.git",
-            branch: "master"
-        ),
-        .package(
-            url: "https://github.com/leviouwendijk/TestFlows.git",
             branch: "master"
         ),
     ],
@@ -144,33 +134,6 @@ let package = Package(
                 .product(
                     name: "Server",
                     package: "Server"
-                ),
-            ]
-        ),
-        .executableTarget(
-            name: "AuthenticationTestFlows",
-            dependencies: [
-                "Authorization",
-                "AuthorizationCapability",
-                "Authentication",
-                "AuthenticationPassword",
-                "AuthenticationToken",
-                "AuthenticationServer",
-                .product(
-                    name: "HTTP",
-                    package: "HTTP"
-                ),
-                .product(
-                    name: "Server",
-                    package: "Server"
-                ),
-                .product(
-                    name: "Primitives",
-                    package: "Primitives"
-                ),
-                .product(
-                    name: "TestFlows",
-                    package: "TestFlows"
                 ),
             ]
         ),
