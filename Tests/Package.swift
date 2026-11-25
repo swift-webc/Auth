@@ -17,11 +17,11 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/leviouwendijk/HTTP.git",
+            url: "https://github.com/swift-webc/HTTP.git",
             branch: "master"
         ),
         .package(
-            url: "https://github.com/leviouwendijk/Server.git",
+            url: "https://github.com/swift-webc/Server.git",
             branch: "master"
         ),
         .package(

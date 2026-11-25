@@ -49,7 +49,7 @@
     {
       "identity" : "http",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/leviouwendijk/HTTP.git",
+      "location" : "https://github.com/swift-webc/HTTP.git",
       "state" : {
         "branch" : "master",
         "revision" : "5d192e57ad16567b3477f5c1901e143a5b9a8002"
@@ -148,7 +148,7 @@
     {
       "identity" : "protocolcomponents",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/leviouwendijk/ProtocolComponents.git",
+      "location" : "https://github.com/swift-webc/ProtocolComponents.git",
       "state" : {
         "branch" : "master",
         "revision" : "866ef7b22350aac41f455c5b2188f95f411a4507"
@@ -166,7 +166,7 @@
     {
       "identity" : "server",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/leviouwendijk/Server.git",
+      "location" : "https://github.com/swift-webc/Server.git",
       "state" : {
         "branch" : "master",
         "revision" : "960984ebe00fa6d0a8771dc9da44e86a44984e82"
